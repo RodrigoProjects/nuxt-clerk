@@ -1,4 +1,5 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { name, version } from '../package.json'
 
 // Module options TypeScript interface definition
 export interface ModuleOptions {
@@ -7,7 +8,8 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'nuxt-clerk',
+    name,
+    version,
     configKey: 'clerk',
     compatibility: {
       // Semver version of supported nuxt versions
@@ -21,6 +23,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     nuxt.options.build.transpile ||= []
     nuxt.options.build.transpile.push('vue-clerk', '@clerk/clerk-js')
+
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addPlugin(resolver.resolve('./runtime/plugin'))
   }
