@@ -29,6 +29,8 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.9.0",
+    "@nuxtjs/tailwindcss": "^6.10.1",
+    "h3-clerk": "^0.3.8",
     "vue-clerk": "^0.1.1"
   },
   "devDependencies": {

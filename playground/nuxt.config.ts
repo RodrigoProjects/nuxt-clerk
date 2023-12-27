@@ -1,5 +1,16 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
-  myModule: {},
-  devtools: { enabled: true }
+  clerk: {
+    vueClerk: {
+      appearance: {
+        variables: {colorPrimary: '#570DF8'},
+      }
+    }
+  },
+  devtools: {enabled: true},
+  runtimeConfig: {
+    public: {
+      clerkPublishableKey: ''
+    }
+  }
 })
