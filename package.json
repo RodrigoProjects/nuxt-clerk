@@ -1,6 +1,6 @@
 {
   "name": "@nuxt/clerk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Clerk integration for nuxt made simple",
   "repository": "your-org/my-module",
   "license": "MIT",
