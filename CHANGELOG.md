@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.9
+
+[compare changes](https://github.com/RodrigoProjects/nuxt-clerk/compare/v0.0.8...v0.0.9)
+
+### 🚀 Enhancements
+
+- Decent README ([bf0956a](https://github.com/RodrigoProjects/nuxt-clerk/commit/bf0956a))
+
+### ❤️ Contributors
+
+- Rodrigo P <rspimentel@worten.pt>
+
 ## v0.0.8
 
 [compare changes](https://github.com/RodrigoProjects/nuxt-clerk/compare/v0.0.7...v0.0.8)
