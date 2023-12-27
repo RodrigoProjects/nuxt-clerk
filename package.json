@@ -1,6 +1,6 @@
 {
   "name": "@nuxt/clerk",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Clerk integration for nuxt made simple",
   "repository": {
     "type": "git",

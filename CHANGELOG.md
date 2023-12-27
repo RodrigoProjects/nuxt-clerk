@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/RodrigoProjects/nuxt-clerk/compare/v0.0.6...v0.0.7)
+
+### 🩹 Fixes
+
+- Add dummy test ([5048089](https://github.com/RodrigoProjects/nuxt-clerk/commit/5048089))
+
+### ❤️ Contributors
+
+- Rodrigo P <rspimentel@worten.pt>
+
 ## v0.0.6
 
 [compare changes](https://github.com/RodrigoProjects/nuxt-clerk/compare/v0.0.5...v0.0.6)
